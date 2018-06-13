@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS dependencies -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.1" remote="github" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-15.1" />
 
   <!-- TeamWin recovery -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" />
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.1" />
 
   <!-- ZTE N817 -->
-  <project path="device/zte/n817" name="stevenh512/android_device_zte_n817" />
-  <project path="kernel/zte/n817" name="stevenh512/android_kernel_zte_n817" />
-  <project path="vendor/zte/n817" name="stevenh512/proprietary_vendor_zte_n817" />
+  <project path="device/zte/n817" name="stevenh512/android_device_zte_n817" remote="github" revision="cm-14.1"/>
+  <project path="kernel/zte/n817" name="stevenh512/android_kernel_zte_n817" remote="github" revision="cm-14.1"/>
+  <project path="vendor/zte/n817" name="stevenh512/proprietary_vendor_zte_n817" remote="github" revision="cm-14.1" />
 </manifest>
 
